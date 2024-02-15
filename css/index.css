@@ -37,4 +37,76 @@ img {
     border-style: none;
 }
 
+.list {
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+}
 
+/* --------------------------------header-------------------------- */
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.address_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.list_wrap{
+    display: flex;
+    align-items: center;
+}
+
+.phone_icon:before {
+    content: "\f2a0";
+}
+
+.mail_icon::before {
+    content: "\f0e0";
+
+}
+
+/*------------------------ main --------------------*/
+.main_wrap {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+
+/* .title_mail {
+    font-size: ;
+    font-weight: ;
+    line-height: ;
+} */
+
+.form {
+    width: 300px;
+    height: auto;
+    min-height: 310px;
+    background-color: #00337a;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.img_h {
+    width: 45%;
+    min-width: 300px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/*--------------------------- gallary ----------------------------*/
+
+.gallary_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}

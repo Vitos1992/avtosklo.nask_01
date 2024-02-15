@@ -16,65 +16,55 @@
 
         <div class="container">
 
-            <address>
-
-                <a href="">
-                    <img src="./img/logo.png" alt="logo">
-                </a>
-
-
-                <ul>
-                    <li>
-                        <svg>
-                            <use class="" href=""></use>
-                        </svg>
-                        <a href="tel:096 001 01 49">096 001 01 49</a>
-                    
-                    </li>
-                    <li>
-                        <svg>
-                            <use class="" href=""></use>
-                        </svg>
-                        <a href="tel:073 001 01 49">073 001 01 49</a>
-                    
-                    </li>
-                    <li>
-                        <svg>
-                            <use class="" href=""></use>
-                        </svg>
-                        <a href="tel:066 001 01 49">066 001 01 49</a>
-                    
-                    </li>
-                    <li>
-                        <svg>
-                            <use class="" href=""></use>
-                        </svg>
-                        <a href="mailto:mail@avtosklo.od.ua">mail@avtosklo.od.ua</a>
-                    
-                    </li>
-                </ul>
+            <div class="header_wrap">
+                <address class="address_wrap">
                 
-            </address>
-
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">Услуги</a>
+                    <div>
+                        <a href="">
+                            <img src="./img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                
+                
+                    <ul class="list list_wrap">
+                        <li class="phone_icon">
+                            <a href="tel:096 001 01 49">096 001 01 49</a>
+                
                         </li>
-                    <li>
-                        <a href="">Цены</a>
+                        <li class="phone_icon">
+                            <a href="tel:073 001 01 49">073 001 01 49</a>
+                
                         </li>
-                    <li>
-                        <a href="">Галерея</a>
+                        <li class="phone_icon">
+                            <a href="tel:066 001 01 49">066 001 01 49</a>
+                
                         </li>
-                    <li>
-                        <a href="">Контакты</a>
+                        <li class="mail_icon">
+                            <a href="mailto:mail@avtosklo.od.ua">mail@avtosklo.od.ua</a>
+                
                         </li>
-                </ul>
-            </nav>
-
+                    </ul>
+                
+                </address>
+                
+                <nav>
+                    <ul class="list list_wrap">
+                        <li>
+                            <a href="">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="">Цены</a>
+                        </li>
+                        <li>
+                            <a href="">Галерея</a>
+                        </li>
+                        <li>
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-
     </header>
 
     <!---------------------------------------- main ------------------------------------------>
@@ -84,63 +74,74 @@
         <!----------------------------------- section ----------------------------->
 
         <section>
-            <img src="./img/logoavto.png" alt="avto">
-            <h3>Наша фирма АВТОСКЛО занимается узкой специализацией в сфере автомобильного стекла. Мы настоящие
-                професcионалы своего
-                дела и всегда готовы Вам помочь!
-            </h3>
 
-            <form action="">
-                <h3>Оставить заявку</h3>
+            <div class="container main_wrap">
+                <div class="img_h">
+                    <img src="./img/logoavto.png" alt="avto" width="506">
+                    <h3 class="title_mail">Наша фирма АВТОСКЛО занимается узкой специализацией в сфере автомобильного стекла. Мы настоящие
+                        професcионалы своего
+                        дела и всегда готовы Вам помочь!
+                    </h3>
+                </div>
 
-                <input type="text" placeholder="Ваше имя">
-
-                <input type="text" placeholder="Ваш мобильный">
-
-                <input type="checkbox" id="check" name="check" value="true">
-                <label for="">
-                    <span>
-                        <svg width="10" height="8">
-                            <use href=""></use>
-                        </svg>
-                    </span>
-                    *Я добровольно отправляю свои данные
-                </label>
-
-                <button id="button" type="submit">Отправить</button>
-
-
-            </form>
-
+                <div class="form">
+                    <form action="">
+                    
+                        <h3>Оставить заявку</h3>
+                    
+                        <input type="text" placeholder="Ваше имя">
+                    
+                        <input type="text" placeholder="Ваш мобильный">
+                    
+                        <input type="checkbox" id="check" name="check" value="true">
+                        <label for="">
+                            <span>
+                                <svg width="10" height="8">
+                                    <use href=""></use>
+                                </svg>
+                            </span>
+                            *Я добровольно отправляю свои данные
+                        </label>
+                    
+                        <button id="button" type="submit">Отправить</button>
+                    
+                    </form>
+                </div>
+            </div>
         </section>
 
         <!--------------------------------------- yslugi -------------------------------------->
 
         <section>
-            <h3>НАШИ УСЛУГИ</h3>
-            
-            <ul>
-                <li>
-                    <img src="./img/heart.png" alt="heart" width="136" height="120">
-                    <p>Мы ценим каждого нашего клиента и предоставляем пожизненную гарантию на установку стекл!</p>
-                </li>
-                <li>
-                    <img src="./img/tool.png" alt="tool" width="120" height="120">
-                    <p>Замена стекл, ремонт сколов и трещин, полировка фар. Работаем с любым видом транспорта: легковые
-                        автомобили,
-                        грузовые,
-                        спец. техника.</p>
-                </li>
-                <li>
-                    <img src="./img/lamp.png" alt="lamp" width="90" height="120">
-                    <p>Наш опыт с 1997 года и более 50 тыс. выполненных работ, поможет Вам выбрать самый оптимальный
-                        вариант!</p>
-                </li>
-                <li>
-                    <img src="./img/compass.png" alt="compass" width="120" height="120">
-                    <p>Выездная установка или восстановления стекла на территории клиента.</p>
-                </li>
-            </ul>
+
+
+            <div class="container">
+                <h3>НАШИ УСЛУГИ</h3>
+
+                <ul class="list">
+                    <li>
+                        <img src="./img/heart.png" alt="heart" width="136" height="120">
+                        <p>Мы ценим каждого нашего клиента и предоставляем пожизненную гарантию на установку стекл!</p>
+                    </li>
+                    <li>
+                        <img src="./img/tool.png" alt="tool" width="120" height="120">
+                        <p>Замена стекл, ремонт сколов и трещин, полировка фар. Работаем с любым видом транспорта:
+                            легковые
+                            автомобили,
+                            грузовые,
+                            спец. техника.</p>
+                    </li>
+                    <li>
+                        <img src="./img/lamp.png" alt="lamp" width="90" height="120">
+                        <p>Наш опыт с 1997 года и более 50 тыс. выполненных работ, поможет Вам выбрать самый оптимальный
+                            вариант!</p>
+                    </li>
+                    <li>
+                        <img src="./img/compass.png" alt="compass" width="120" height="120">
+                        <p>Выездная установка или восстановления стекла на территории клиента.</p>
+                    </li>
+                </ul>
+            </div>
 
             <div>
                 <h1>www.avtosklo.od.ua</h1>
@@ -156,63 +157,68 @@
 
         <section>
 
-            <h2>ЦЕНЫ</h2>
+            <div class="container">
+                <h2>ЦЕНЫ</h2>
 
-            <ul>
-                <li>
-                    <h3>Украина</h3>
-                    <p>от 500 грн.</p>
-                    <p>Цены уточняйте у менеджера, вариация зависит от выбора производителя и марки автомобиля.</p>
-                    <a href="">Заказать</a>
-                </li>
-                <li>
-                    <h3>Китай</h3>
-                    <p>от 500 грн.</p>
-                    <p>Цены уточняйте у менеджера, вариация зависит от выбора производителя и марки автомобиля.</p>
-                    <a href="">Заказать</a>
-                </li>
-                <li>
-                    <h3>Европа</h3>
-                    <p>от 1500 грн.</p>
-                    <p>Цены уточняйте у менеджера, вариация зависит от выбора производителя и марки автомобиля.</p>
-                    <a href="#box">Заказать</a>
-                </li>
-                <li>
-                    <h3>Оригинал</h3>
-                    <p>от 2000 грн</p>
-                    <p>Цены уточняйте у менеджера, вариация зависит от выбора производителя и марки автомобиля.</p>
-                    <a href="">Заказать</a>
-                </li>
-            </ul>
+                <ul class="list">
+                    <li>
+                        <h3>Украина</h3>
+                        <p>от 500 грн.</p>
+                        <p>Цены уточняйте у менеджера, вариация зависит от выбора производителя и марки автомобиля.</p>
+                        <a href="">Заказать</a>
+                    </li>
+                    <li>
+                        <h3>Китай</h3>
+                        <p>от 500 грн.</p>
+                        <p>Цены уточняйте у менеджера, вариация зависит от выбора производителя и марки автомобиля.</p>
+                        <a href="">Заказать</a>
+                    </li>
+                    <li>
+                        <h3>Европа</h3>
+                        <p>от 1500 грн.</p>
+                        <p>Цены уточняйте у менеджера, вариация зависит от выбора производителя и марки автомобиля.</p>
+                        <a href="#box">Заказать</a>
+                    </li>
+                    <li>
+                        <h3>Оригинал</h3>
+                        <p>от 2000 грн</p>
+                        <p>Цены уточняйте у менеджера, вариация зависит от выбора производителя и марки автомобиля.</p>
+                        <a href="">Заказать</a>
+                    </li>
+                </ul>
+            </div>
 
         </section>
 
         <!------------------------------- gallary -------------------------------------->
 
         <section>
-            <h3>
-                <span>ГАЛЕ</span>РЕЯ
-            </h3>
-            <ul>
-                <li class="gallary_img">
-                    <img src="./img/фото6-1.jpg" alt="advertising" width="384">
-                </li>
-                <li class="gallary_img">
-                    <img src="./img/фото5-1.jpg" alt="advertising" width="384">
-                </li>
-                <li class="gallary_img">
-                    <img src="./img/фото4-1.jpg" alt="advertising" width="384">
-                </li>
-                <li class="gallary_img">
-                    <img src="./img/фото3-1.jpg" alt="advertising" width="384">
-                </li>
-                <li class="gallary_img">
-                    <img src="./img/фото2-1.jpg" alt="advertising" width="384">
-                </li>
-                <li class="gallary_img">
-                    <img src="./img/фото1-1.jpg" alt="advertising" width="384">
-                </li>
-            </ul>
+
+            <div class="container">
+                <h3>
+                    <span>ГАЛЕ</span>РЕЯ
+                </h3>
+                <ul class="list gallary_wrap">
+                    <li class="gallary_img">
+                        <img src="./img/фото6-1.jpg" alt="advertising" width="384">
+                    </li>
+                    <li class="gallary_img">
+                        <img src="./img/фото5-1.jpg" alt="advertising" width="384">
+                    </li>
+                    <li class="gallary_img">
+                        <img src="./img/фото4-1.jpg" alt="advertising" width="384">
+                    </li>
+                    <li class="gallary_img">
+                        <img src="./img/фото3-1.jpg" alt="advertising" width="384">
+                    </li>
+                    <li class="gallary_img">
+                        <img src="./img/фото2-1.jpg" alt="advertising" width="384">
+                    </li>
+                    <li class="gallary_img">
+                        <img src="./img/фото1-1.jpg" alt="advertising" width="384">
+                    </li>
+                </ul>
+            </div>
 
         </section>
 
@@ -220,34 +226,36 @@
 
         <section>
 
-            <h4>КОНТАКТЫ</h4>
+            <div class="container">
+                <h4>КОНТАКТЫ</h4>
 
-            <ul>
-                <li>Киев,</li>
-                <li>Одесса,</li>
-                <li>Черкассы</li>
-            </ul>
-
-            <address>
-                <ul>
-                    <li>
-                        <a href="tel:096 001 01 49">096 001 01 49</a>
-                    
-                    </li>
-                    <li>
-                        <a href="tel:073 001 01 49">073 001 01 49</a>
-                    
-                    </li>
-                    <li>
-                        <a href="tel:066 001 01 49">066 001 01 49</a>
-                    
-                    </li>
-                    <li>
-                        <a href="mailto:mail@avtosklo.od.ua">mail@avtosklo.od.ua</a>
-                    
-                    </li>
+                <ul class="list">
+                    <li>Киев,</li>
+                    <li>Одесса,</li>
+                    <li>Черкассы</li>
                 </ul>
-            </address>
+
+                <address>
+                    <ul class="list">
+                        <li>
+                            <a href="tel:096 001 01 49">096 001 01 49</a>
+
+                        </li>
+                        <li>
+                            <a href="tel:073 001 01 49">073 001 01 49</a>
+
+                        </li>
+                        <li>
+                            <a href="tel:066 001 01 49">066 001 01 49</a>
+
+                        </li>
+                        <li>
+                            <a href="mailto:mail@avtosklo.od.ua">mail@avtosklo.od.ua</a>
+
+                        </li>
+                    </ul>
+                </address>
+            </div>
         </section>
 
     </main>
@@ -257,33 +265,35 @@
 
     <footer>
 
-        <h4></h4>
+        <div class="container">
+            <h4></h4>
 
-        <ul>
-            <li>
-                <svg>
-                    <use></use>
-                </svg>
-            </li>
-            <li>
-                <svg>
-                    <use></use>
-                </svg>
-            </li>
-            <li>
-                <svg>
-                    <use></use>
-                </svg>
-            </li>
-            <li>
-                <svg>
-                    <use></use>
-                </svg>
-            </li>
-        </ul>
+            <ul class="list">
+                <li>
+                    <svg>
+                        <use></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg>
+                        <use></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg>
+                        <use></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg>
+                        <use></use>
+                    </svg>
+                </li>
+            </ul>
 
-        <p>Copyright © 2020 <span>Avtosklo Odessa</span> | ITWeb</p>
+            <p>Copyright © 2020 <span>Avtosklo Odessa</span> | ITWeb</p>
 
+        </div>
 
     </footer>
 

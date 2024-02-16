@@ -8,7 +8,7 @@ body {
     width: 100%;
     padding: 0 auto;
     margin: 0 auto;
-    font-family: "Roboto_Regular", cursive;
+    /* font-family: "Roboto_Regular", cursive; */
     font-weight: 500;
     font-size: 14px;
     background: rgb(255, 255, 255);
@@ -83,11 +83,11 @@ img {
     align-content: space-between;
 }
 
-/* .title_mail {
-    font-size: ;
-    font-weight: ;
-    line-height: ;
-} */
+.title_mail {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
 
 .form {
     width: 300px;
@@ -144,9 +144,66 @@ img {
 
 }
 
+/*----------------------------- services -----------------------------*/
+.services_title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 50px 0 20px 0;
+    margin: 0;
+
+}
+
+.services_title span {
+    color: #d41117;
+}
+
+.cont_list {
+    max-width: 260px;
+    text-align: center;
+    padding: 5px 20px;
+
+}
+
+.cont_services {
+    display: flex;
+    align-items: center;
+}
+
+.services_list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-bottom: 20px;
+
+}
+
+/*--------------------------- menu --------------------------------*/
+
+.menu_list {
+    display: flex;
+}
+
+.list_price {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
 /*--------------------------- gallary ----------------------------*/
 
 .gallary_wrap {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    min-width: 200px;
+    /* max-height: 200px; */
 }

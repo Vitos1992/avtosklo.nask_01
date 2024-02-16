@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Автоскло</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/index.css">
+
+
 </head>
 
 <body>
@@ -18,35 +24,35 @@
 
             <div class="header_wrap">
                 <address class="address_wrap">
-                
+
                     <div>
                         <a href="">
                             <img src="./img/logo.png" alt="logo">
                         </a>
                     </div>
-                
-                
+
+
                     <ul class="list list_wrap">
                         <li class="phone_icon">
                             <a href="tel:096 001 01 49">096 001 01 49</a>
-                
+
                         </li>
                         <li class="phone_icon">
                             <a href="tel:073 001 01 49">073 001 01 49</a>
-                
+
                         </li>
                         <li class="phone_icon">
                             <a href="tel:066 001 01 49">066 001 01 49</a>
-                
+
                         </li>
                         <li class="mail_icon">
                             <a href="mailto:mail@avtosklo.od.ua">mail@avtosklo.od.ua</a>
-                
+
                         </li>
                     </ul>
-                
+
                 </address>
-                
+
                 <nav>
                     <ul class="list list_wrap">
                         <li>
@@ -78,7 +84,8 @@
             <div class="container main_wrap">
                 <div class="img_h">
                     <img src="./img/logoavto.png" alt="avto" width="506">
-                    <h3 class="title_mail">Наша фирма АВТОСКЛО занимается узкой специализацией в сфере автомобильного стекла. Мы настоящие
+                    <h3 class="title_mail">Наша фирма АВТОСКЛО занимается узкой специализацией в сфере автомобильного
+                        стекла. Мы настоящие
                         професcионалы своего
                         дела и всегда готовы Вам помочь!
                     </h3>
@@ -86,25 +93,25 @@
 
                 <div class="form">
                     <form action="">
-                    
-                        <h3>Оставить заявку</h3>
-                    
-                        <input type="text" placeholder="Ваше имя">
-                    
-                        <input type="text" placeholder="Ваш мобильный">
-                    
+
+                        <h3 class="form_title">Оставить заявку</h3>
+
+                        <input id="name" class="input_name" name="name" type="text" placeholder="Ваше имя">
+
+                        <input id="phone" class="input_phone" type="text" name="phone" placeholder="Ваш мобильный">
+
                         <input type="checkbox" id="check" name="check" value="true">
                         <label for="">
-                            <span>
+                            <!-- <span>
                                 <svg width="10" height="8">
                                     <use href=""></use>
                                 </svg>
-                            </span>
+                            </span> -->
                             *Я добровольно отправляю свои данные
                         </label>
-                    
-                        <button id="button" type="submit">Отправить</button>
-                    
+
+                        <button id="button" type="submit" class="btn_form">Отправить</button>
+
                     </form>
                 </div>
             </div>

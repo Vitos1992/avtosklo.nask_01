@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     height: 100%;
     width: 100%;
     padding: 0 auto;
@@ -102,6 +103,45 @@ img {
     min-width: 300px;
     overflow: hidden;
     padding: 20px;
+}
+
+.form_title {
+    font-style: normal;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.input_name{
+
+
+}
+
+.input_phone {
+
+}
+
+.btn_form {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 2px;
+    border: 2px solid #d41117;
+    letter-spacing: 0.03em;
+    background-color: #d41117;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    padding: 12px 0;
+
 }
 
 /*--------------------------- gallary ----------------------------*/

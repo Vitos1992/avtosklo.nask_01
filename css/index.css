@@ -148,7 +148,7 @@ img {
 .services_title {
     text-align: center;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     padding: 50px 0 20px 0;
     margin: 0;
@@ -161,9 +161,28 @@ img {
 
 .cont_list {
     max-width: 260px;
+    width: 25%;
+    display: block;
+    overflow: hidden;
+    height: auto;
     text-align: center;
     padding: 5px 20px;
 
+}
+
+.text_list {
+    line-height: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cont_list img {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 120%;
+    overflow: hidden;
 }
 
 .cont_services {
@@ -184,6 +203,8 @@ img {
 
 .menu_list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .list_price {
@@ -192,6 +213,50 @@ img {
     text-align: center;
     font-size: 14px;
     font-weight: 500;
+}
+
+.menu_cantri {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.mani {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #d41117;
+    margin: 0px;
+}
+.menu_title {
+    display: block;
+    padding: 0px 10px;
+    width: auto;
+    margin: 0px;
+}
+
+.price_btn {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    border: 1px solid #d41117;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    height: auto;
+    margin: 20px auto;
+    padding: 12px 0px;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    width: 130px;
+    background-color: #d41117;
+
 }
 
 

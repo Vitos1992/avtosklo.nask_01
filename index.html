@@ -27,9 +27,9 @@
                         <img src="./img/logo.png" alt="logo">
                     </a>
 
-                    <ul class="list list_wrap nav_list">
+                    <ul class="list nav_list">
                         <li class="phone_icon">
-                            <a href="tel:096 001 01 49">096 001 01 49</a>
+                            <a href="tel:096 001 01 49"><i class="fas fas_phone">096 001 01 49</i></a>
 
                         </li>
                         <li class="phone_icon">
@@ -48,17 +48,17 @@
                 </address>
 
                 <nav class="nav_li">
-                    <ul class="list list_wrap">
-                        <li class="">
+                    <ul class="list ">
+                        <li class="list_wrap">
                             <a href="#">Услуги</a>
                         </li>
-                        <li class="">
+                        <li class="list_wrap">
                             <a href="#">Цены</a>
                         </li>
-                        <li class="">
+                        <li class="list_wrap">
                             <a href="#">Галерея</a>
                         </li>
-                        <li class="">
+                        <li class="list_wrap">
                             <a href="#">Контакты</a>
                         </li>
                     </ul>
@@ -122,12 +122,16 @@
                 <div class="services_list">
                     <ul class="list cont_services">
                         <li class="cont_list">
-                            <img src="./img/heart.png" alt="heart" width="136" height="120">
+                            <div class="img_png">
+                                <img src="./img/heart.png" class="png_heart" alt="heart">
+                            </div>
                             <p class="text_list">Мы ценим каждого нашего клиента и предоставляем пожизненную гарантию на
                                 установку стекл!</p>
                         </li>
                         <li class="cont_list">
-                            <img src="./img/tool.png" alt="tool" width="120" height="120">
+                            <div class="img_png">
+                                <img src="./img/tool.png" alt="tool">
+                            </div>
                             <p class="text_list">Замена стекл, ремонт сколов и трещин, полировка фар. Работаем с любым
                                 видом транспорта:
                                 легковые
@@ -136,26 +140,30 @@
                                 спец. техника.</p>
                         </li>
                         <li class="cont_list">
-                            <img src="./img/lamp.png" alt="lamp" width="90" height="120">
+                            <div class="img_png">
+                                <img src="./img/lamp.png" alt="lamp">
+                            </div>
                             <p class="text_list">Наш опыт с 1997 года и более 50 тыс. выполненных работ, поможет Вам
                                 выбрать самый оптимальный
                                 вариант!</p>
                         </li>
                         <li class="cont_list">
-                            <img src="./img/compass.png" alt="compass" width="120" height="120">
+                            <div class="img_png">
+                                <img src="./img/compass.png" alt="compass">
+                            </div>
                             <p class="text_list">Выездная установка или восстановления стекла на территории клиента.</p>
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <div>
-                <h1>www.avtosklo.od.ua</h1>
-                <svg>
-                    <use></use>
-
-                </svg>
-                <h1>Мы ценим каждого клиента!</h1>
+            <div class="padding_avto">
+                <div class="adress_avto">
+                    <h1>www.avtosklo.od.ua</h1>
+                
+                    <img src="/img/redstring.png" alt="redstring">
+                    <h1>Мы ценим каждого клиента!</h1>
+                </div>
             </div>
         </section>
 
@@ -211,27 +219,27 @@
         <section>
 
             <div class="container">
-                <h3>
+                <h3 class="services_title">
                     <span>ГАЛЕ</span>РЕЯ
                 </h3>
                 <ul class="list gallary_wrap">
                     <li class="gallary_img">
-                        <img src="./img/фото6-1.jpg" alt="advertising" width="384">
+                        <img src="./img/фото6-1.jpg" alt="advertising">
                     </li>
                     <li class="gallary_img">
-                        <img src="./img/фото5-1.jpg" alt="advertising" width="384">
+                        <img src="./img/фото5-1.jpg" alt="advertising">
                     </li>
                     <li class="gallary_img">
-                        <img src="./img/фото4-1.jpg" alt="advertising" width="384">
+                        <img src="./img/фото4-1.jpg" alt="advertising">
                     </li>
                     <li class="gallary_img">
-                        <img src="./img/фото3-1.jpg" alt="advertising" width="384">
+                        <img src="./img/фото3-1.jpg" alt="advertising">
                     </li>
                     <li class="gallary_img">
-                        <img src="./img/фото2-1.jpg" alt="advertising" width="384">
+                        <img src="./img/фото2-1.jpg" alt="advertising">
                     </li>
                     <li class="gallary_img">
-                        <img src="./img/фото1-1.jpg" alt="advertising" width="384">
+                        <img src="./img/фото1-1.jpg" alt="advertising">
                     </li>
                 </ul>
             </div>
@@ -243,16 +251,18 @@
         <section>
 
             <div class="container">
-                <h4>КОНТАКТЫ</h4>
+                <h4 class="services_title"><span>КОНТ</span>АКТЫ</h4>
 
-                <ul class="list">
-                    <li>Киев,</li>
-                    <li>Одесса,</li>
-                    <li>Черкассы</li>
-                </ul>
+                <div class="contact_service">
+                    <ul class="list ">
+                        <li>Киев,</li>
+                        <li>Одесса,</li>
+                        <li>Черкассы</li>
+                    </ul>
+                </div>
 
-                <address>
-                    <ul class="list">
+                <address class="address_wrap">
+                    <ul class="list nav_list">
                         <li>
                             <a href="tel:096 001 01 49">096 001 01 49</a>
 
@@ -279,10 +289,10 @@
 
     <!--------------------------------- footer --------------------------------->
 
-    <footer>
+    <footer class="footer">
 
         <div class="container">
-            <h4></h4>
+            <h4 class="footer_title">Мы в соцсетях</h4>
 
             <ul class="list">
                 <li>

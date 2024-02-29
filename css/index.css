@@ -28,7 +28,7 @@ ul {
     margin: 0;
     margin-left: 0;
     padding-left: 0;
-    
+
 }
 
 img {
@@ -58,11 +58,11 @@ img {
 .header_container::before {
     content: '';
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(255, 255, 255 0.9);
+    background-color: rgba(255, 255, 255 0.9);
     z-index: 3;
 }
 
@@ -73,8 +73,10 @@ img {
 }
 
 .header_wrap {
+    height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header_logo {
@@ -90,10 +92,21 @@ img {
     align-items: center;
 }
 
-.list_wrap{
+.list_wrap {
+
     display: flex;
     align-items: center;
     z-index: 5;
+    margin-left: 20px;
+
+}
+
+.foc {
+    color: #00337a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
 
 }
 
@@ -101,7 +114,13 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
+}
+
+.address_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav_li {
@@ -124,7 +143,7 @@ img {
 }
 
 
-.fas_phone {
+.fas {
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
 }
@@ -142,26 +161,32 @@ img {
 
 /*------------------------ main --------------------*/
 .section_img {
-    margin: 60px;
+    margin-top: 60px;
     height: auto;
     width: 100%;
     min-height: 550px;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8),
-                                rgba(235, 240, 240, 0.5)), 
-                                url(../img/roadjpeg.jpg) 50% 70% no-repeat;
+            rgba(235, 240, 240, 0.5)),
+        url(../img/roadjpeg.jpg) 50% 70% no-repeat;
+    margin-bottom: 50px;
 }
+
 
 .main_wrap {
     display: flex;
     align-items: center;
-    align-content: space-between;
-    padding-bottom: 50px;
+    justify-content: space-between;
+
+    align-items: center;
+    margin: 0 auto;
 }
 
 .title_mail {
     font-size: 18px;
     line-height: 25px;
     text-align: center;
+    margin: 10px;
+    color: #404040;
 }
 
 .form {
@@ -188,18 +213,47 @@ img {
     font-weight: 500;
     letter-spacing: 0.02em;
     text-align: center;
+    margin: 20px 0 22px 0;
 
 }
 
-.input_name{
+.input {
+    text-align: center;
+}
 
+.input_name {
+    width: 85%;
+    height: 20px;
+    font-size: 16px;
+    padding: 8px 5px;
+    line-height: 0.5;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
 
 }
 
 .input_phone {
+    width: 85%;
+    height: 20px;
+    font-size: 16px;
+    padding: 8px 5px;
+    line-height: 0.5;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
 
 }
 
+.checkbox {
+    width: 90%;
+    margin: 10px auto;
+    line-height: 20px;
+}
+
+.checkbox_text {
+    color: #fff;
+}
 .btn_form {
     font-weight: 500;
     font-style: normal;
@@ -225,7 +279,7 @@ img {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 0 0 20px 0;
+    padding: 0 0 40px 0;
     margin: 0;
 
 }
@@ -242,7 +296,7 @@ img {
     height: auto;
     text-align: center;
     padding: 5px 20px;
-    
+
 
 }
 
@@ -275,7 +329,7 @@ img {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 470px;
+    
 
 }
 
@@ -285,7 +339,7 @@ img {
     width: 100%;
     height: 80px;
     background-color: #1a4176;
-    
+
 }
 
 .padding_avto {
@@ -335,6 +389,7 @@ img {
     color: #d41117;
     margin: 0px;
 }
+
 .menu_title {
     display: block;
     padding: 0px 10px;
@@ -405,12 +460,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 }
 
-.address_wrap {
-    padding-bottom: 30px;
-}
 
 /* ----------------------------footer */
 

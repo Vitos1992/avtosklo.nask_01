@@ -329,6 +329,7 @@ img {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 50px;
     
 
 }
@@ -367,10 +368,25 @@ img {
 
 .list_price {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     font-size: 14px;
     font-weight: 500;
+}
+
+.menu_box {
+    min-width: 200px;
+        width: 24%;
+        height: auto;
+        max-height: 300px;
+        justify-content: space-between;
+        overflow: hidden;
+        text-align: center;
+        border: 1px solid #b0cbef;
+        border-radius: 3px;
+        padding-top: 10px;
 }
 
 .menu_cantri {
@@ -426,6 +442,7 @@ img {
 .gallary_wrap {
     display: flex;
     flex-wrap: wrap;
+    flex-basis: calc((100% - 10px) /3);
     gap: 10px;
     flex-direction: unset;
     justify-content: space-between;
@@ -434,10 +451,9 @@ img {
 }
 
 .gallary_img {
-    flex-basis: calc((100% - 10px) /3);
+    
     min-width: 200px;
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 32%;
     min-width: 200px;

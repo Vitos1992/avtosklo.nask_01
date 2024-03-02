@@ -2,6 +2,11 @@ html {
     box-sizing: border-box;
 }
 
+* *::before,
+::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     height: 100%;
@@ -304,6 +309,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .img_png img {
@@ -315,14 +321,14 @@ img {
 
 .text_list {
     line-height: 20px;
-    margin-top: 20px;
     font-size: 15px;
     font-weight: 500;
+    color: #404040;
 }
 
 .cont_services {
     display: flex;
-    align-items: center;
+    align-items: stretch;
 }
 
 .services_list {
@@ -387,6 +393,10 @@ img {
         border: 1px solid #b0cbef;
         border-radius: 3px;
         padding-top: 10px;
+}
+
+.menu_box:hover {
+    border: none;
 }
 
 .menu_cantri {

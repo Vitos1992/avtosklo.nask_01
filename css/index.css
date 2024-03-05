@@ -284,7 +284,7 @@ img {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 0 0 40px 0;
+    padding: 0 0 45px 0;
     margin: 0;
 
 }
@@ -324,6 +324,7 @@ img {
     font-size: 15px;
     font-weight: 500;
     color: #404040;
+    margin-bottom: 15px;
 }
 
 .cont_services {
@@ -403,31 +404,39 @@ img {
 }
 
 .menu_cantri {
-    font-family: 'Roboto' sans-serif;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     margin: 0px;
+    margin-bottom: 8px;
 }
 
 .mani {
-    font-family: 'Roboto' sans-serif;
+    font-family: sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 40px;
     color: #d41117;
     margin: 0px;
+    margin-bottom: 8px;
+    
 }
+
 
 .menu_title {
     display: block;
     padding: 0px 10px;
     width: auto;
     margin: 0px;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .price_btn {
-    font-family: 'Roboto' sans-serif;
+    font-family: sans-serif;
     font-weight: 500;
     border: 1px solid #d41117;
     border-radius: 3px;
@@ -463,7 +472,6 @@ img {
 }
 
 .gallary_img {
-    /* flex-basis: calc((100% - 10px) /3); */
     align-items: center;
     display: flex;
     justify-content: center;

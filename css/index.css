@@ -13,7 +13,6 @@ body {
     width: 100%;
     padding: 0 auto;
     margin: 0 auto;
-    /* font-family: "Roboto_Regular", cursive; */
     font-weight: 500;
     font-size: 14px;
     background: rgb(255, 255, 255);
@@ -112,7 +111,27 @@ img {
     font-size: 16px;
     text-decoration: none;
     letter-spacing: 1px;
+    font-weight: 900;
 
+}
+
+.foc_dox {
+    color: #00337a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 900;
+    border: transparent;
+}
+
+.foc_dox:hover {
+    color: #fff;
+    background-color: #00337a;
+    padding: 5px 5px;
+    border-radius: 2px;
+    border: transparent;
+    transition: 200ms linear;
 }
 
 .nav_list {
@@ -152,16 +171,6 @@ img {
     font-family: "Font Awesome 5 Free";
 }
 
-.phone_icon:before {
-    
-    transform: rotate(-25deg);
-    color: #d41117;
-}
-
-.mail_icon::before {
-    content: "\f0e0";
-
-}
 
 /*------------------------ main --------------------*/
 .section_img {
@@ -180,7 +189,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     align-items: center;
     margin: 0 auto;
 }
@@ -522,6 +530,21 @@ img {
     margin-right: 0;
 }
 
+.icon_svg {
+    fill: #d41117;
+    transform: rotate(-25deg);
+}
+
+.icon_mail_svg {
+    fill: #d41117;
+}
+
+.foc:hover {
+    color: #d41117;
+}
+
+
+
 
 /* ----------------------------footer */
 
@@ -564,5 +587,7 @@ img {
     max-width: 32px;
     min-height: 32px;
     fill: #ffffff;
-}
+} 
+
+
 

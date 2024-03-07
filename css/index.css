@@ -66,7 +66,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     z-index: 3;
 }
 
@@ -97,21 +97,15 @@ img {
 }
 
 .list_wrap {
-
     display: flex;
     align-items: center;
     z-index: 5;
-    margin-left: 20px;
+    
 
 }
 
 .foc {
-    color: #00337a;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: 900;
+    
 
 }
 
@@ -123,13 +117,13 @@ img {
     letter-spacing: 1px;
     font-weight: 900;
     border: transparent;
+    padding: 5px 10px 5px 10px;
 }
 
 .foc_dox:hover {
     color: #fff;
     background-color: #00337a;
-    padding: 5px 5px;
-    border-radius: 2px;
+    border-radius: 5px;
     border: transparent;
     transition: 200ms linear;
 }
@@ -157,11 +151,12 @@ img {
 .phone_icon {
     color: #00337a;
     text-decoration: none;
-    font-family: 'Roboto' sans-serif;
+    font-family: sans-serif;
     letter-spacing: 1px;
     font-style: normal;
     font-size: 16px;
     margin-right: 10px;
+    z-index: 5;
 
 }
 
@@ -169,6 +164,10 @@ img {
 .fas {
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
+}
+
+.mail_icon{
+    z-index: 5;
 }
 
 
@@ -471,7 +470,7 @@ img {
 .gallary_wrap {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 8px;
+    gap: 15px 8px;
     flex-direction: unset;
     justify-content: space-between;
     padding-bottom: 50px;
@@ -543,6 +542,23 @@ img {
     color: #d41117;
 }
 
+.list_wrap1 {
+    color: #00337a;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.list_wrap1:nth-child(3) {
+    margin-right: 0px;
+}
+
+.phone_icon:nth-child(4) {
+    margin-right: 0px;
+}
+
 
 
 
@@ -563,12 +579,20 @@ img {
     margin: 0 0 10px 0;
 }
 
+.footer_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer_list {
     display: block;
     width: 40%;
     max-width: 400px;
     height: auto;
     overflow: hidden;
+    padding-top: 20px;
 }
 
 .svg_list {
@@ -583,11 +607,26 @@ img {
     min-height: 32px;
 }
 
+.style_svg:hover {
+    fill: #d41117;
+    transition: 250 linear;
+}
+
 .style_svg {
     max-width: 32px;
     min-height: 32px;
     fill: #ffffff;
 } 
+
+.footer_p {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer_pc {
+    color: #d41117;
+}
 
 
 

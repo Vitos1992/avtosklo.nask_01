@@ -263,6 +263,14 @@ img {
 
 }
 
+.input_name::placeholder,
+.input_phone::placeholder {
+    font-size: 12px;
+    font-family: 300;
+    letter-spacing: 0.02em;
+}
+
+
 .checkbox {
     width: 90%;
     margin: 10px auto;
@@ -279,7 +287,7 @@ img {
     font-size: 18px;
     color: #fff;
     border-radius: 2px;
-    border: 2px solid #d41117;
+    border: 1px solid transparent;
     letter-spacing: 0.03em;
     background-color: #d41117;
     text-align: center;
@@ -289,6 +297,14 @@ img {
     height: auto;
     margin: 20px auto;
     padding: 12px 0;
+    
+    
+
+}
+
+.btn_form:hover {
+    border: 1px solid #fff;
+    
 
 }
 
@@ -378,17 +394,7 @@ img {
     padding: 5px 20px;
 }
 
-.input_name::placeholder,
-.input_phone::placeholder {
-    font-size: 12px;
-    font-family: 300;
-    letter-spacing: 0.02em;
-}
 
-.input_name:hover,
-.input_name:focus {
-    border-color: #00337a;
-}
 
 /*--------------------------- menu --------------------------------*/
 
@@ -464,7 +470,7 @@ img {
 .price_btn {
     font-family: sans-serif;
     font-weight: 500;
-    border: 1px solid #d41117;
+    border: 1px solid transparent;
     border-radius: 3px;
     color: #fff;
     display: block;
@@ -484,9 +490,9 @@ img {
 }
 
 .price_btn:hover {
-    border: 3px solid #fff;
+    border: 1px solid #fff;
     
-    border: transparent;
+    
 }
 
 

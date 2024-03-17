@@ -100,14 +100,21 @@ img {
     display: flex;
     align-items: center;
     z-index: 5;
-    
+
 
 }
 
 .foc {
-    
+    color: #00337a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 900;
+
 
 }
+
 
 .foc_dox {
     color: #00337a;
@@ -166,7 +173,7 @@ img {
     font-family: "Font Awesome 5 Free";
 }
 
-.mail_icon{
+.mail_icon {
     z-index: 5;
 }
 
@@ -265,6 +272,7 @@ img {
 .checkbox_text {
     color: #fff;
 }
+
 .btn_form {
     font-weight: 500;
     font-style: normal;
@@ -343,7 +351,7 @@ img {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 50px;
-    
+
 
 }
 
@@ -370,6 +378,18 @@ img {
     padding: 5px 20px;
 }
 
+.input_name::placeholder,
+.input_phone::placeholder {
+    font-size: 12px;
+    font-family: 300;
+    letter-spacing: 0.02em;
+}
+
+.input_name:hover,
+.input_name:focus {
+    border-color: #00337a;
+}
+
 /*--------------------------- menu --------------------------------*/
 
 .menu_list {
@@ -393,20 +413,20 @@ img {
 .menu_box {
     min-width: 200px;
     display: inline-block;
-        width: 24%;
-        height: auto;
-        max-height: 300px;
-        justify-content: space-between;
-        overflow: hidden;
-        text-align: center;
-        border: 1px solid #b0cbef;
-        border-radius: 3px;
-        padding-top: 10px;
+    width: 24%;
+    height: auto;
+    max-height: 300px;
+    justify-content: space-between;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #b0cbef;
+    border-radius: 3px;
+    padding-top: 10px;
 }
 
 .menu_box:hover {
     border: 1px solid transparent;
-    
+
 }
 
 .menu_cantri {
@@ -426,7 +446,7 @@ img {
     color: #d41117;
     margin: 0px;
     margin-bottom: 8px;
-    
+
 }
 
 
@@ -459,7 +479,14 @@ img {
     text-decoration: none;
     width: 130px;
     background-color: #d41117;
+    
 
+}
+
+.price_btn:hover {
+    border: 3px solid #fff;
+    
+    border: transparent;
 }
 
 
@@ -616,7 +643,7 @@ img {
     max-width: 32px;
     min-height: 32px;
     fill: #ffffff;
-} 
+}
 
 .footer_p {
     color: #fff;
@@ -627,6 +654,3 @@ img {
 .footer_pc {
     color: #d41117;
 }
-
-
-

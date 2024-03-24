@@ -1,0 +1,69 @@
+@media screen and (min-width: 200px),
+(min-width: 428px) {
+
+    .container {
+        min-width: 426px;
+    }
+
+    /* -----------------header------------------- */
+
+    .address_list {
+        display: none;
+    }
+
+    .nav_list {
+        display: none;
+    }
+
+    .burger {
+        fill: black;
+    }
+    
+
+    /* ------------------------ main -------------------- */
+    
+    .main_wrap {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    /* -------------------services----------------------- */
+
+    .cont_services {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .img_png_mobile {
+        margin: 0 auto;
+    }
+
+    /* ---------------------menu----------------------- */
+    
+    .list_price {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* ---------------------gallary------------------------ */
+    
+
+    .gallary_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+}

@@ -1,5 +1,4 @@
-@media screen and (min-width: 200px),
-(min-width: 428px) {
+@media  (max-width: 725px) {
 
     .container {
         min-width: 426px;
@@ -22,11 +21,17 @@
 
     /* ------------------------ main -------------------- */
     
+    .section_img {
+        width: 100%;
+    }
+
     .main_wrap {
         display: flex;
         flex-wrap: wrap;
 
     }
+
+
 
     /* -------------------services----------------------- */
 

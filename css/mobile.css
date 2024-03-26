@@ -195,7 +195,7 @@
     .main_wrap {
         display: flex;
         flex-direction: column;
-        
+
     }
 
     .img_h {
@@ -208,11 +208,66 @@
     }
 
     /* ---------------------services------------------------ */
-        .cont_services {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            align-items: center;
-        }
+    .cont_services {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .services_list {
+        display: block;
+        
+    }
+
+    .cont_list {
+        max-width: 765px;
+        width: 80%;
+    }
+
+    .text_list {
+        font-weight: 300;
+    }
+
+    .none {
+        font-size: 18px;
+        width: 60%;
+        height: 35px;
+    }
+
+    /* -------------------------menu------------------ */
+
+    .menu_box {
+        width: 100%;
+    }
+
+
+    /* ------------------gallary--------------------- */
+    
+    .gallary_img {
+        width: 47%;
+        max-height: 140px;
+    }
+
+    /* -----------------------------contact---------------------- */
+    .mobile_list {
+        display: block;
+    }
+
+    /* -------------------footer------------------------ */
+    .footer_flex {
+        justify-content: space-around;
+    }
+    
+    .style_svg {
+        width: 26px;
+        height: 30px;
+    }
+    .footer_p {
+        font-size: 12px;
+    }
+
+
 
 }
